@@ -1,1 +1,19 @@
-{\n  "name": "editoraapp",\n  "version": "1.0.0",\n  "main": "index.js",\n  "scripts": {},\n  "dependencies": {\n    "express": "^4.17.1",\n    "react-native": "^0.64.0",\n    "next": "^12.1.0"\n  }\n}
+{
+  "name": "editoraapp",
+  "version": "1.0.0",
+  "description": "Plataforma completa de editora com agentes de IA autônomos",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "mobile": "cd mobile_app && npm start",
+    "desktop": "cd desktop_app && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../desktop_app && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.4"
+  },
+  "readme": "See README for setup instructions. Set ANTHROPIC_API_KEY in backend/.env"
+}
