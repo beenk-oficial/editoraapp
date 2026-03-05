@@ -1,0 +1,1 @@
+{\n  "name": "editoraapp",\n  "version": "1.0.0",\n  "main": "index.js",\n  "scripts": {},\n  "dependencies": {\n    "express": "^4.17.1",\n    "react-native": "^0.64.0",\n    "next": "^12.1.0"\n  }\n}
